@@ -40,6 +40,7 @@ const styles = makeStyles({
 function NavBar() {
     const classes = styles()
     return (
+        <div className='navbar'>
             <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
                 <img src={logo} className={classes.logo}/> 
                 <img src={logoMobile} className={classes.logoMobile}/> 
@@ -60,6 +61,7 @@ function NavBar() {
                 </Typography>
                 <CustomBtn txt="Trial Our Product"/>
             </Toolbar>
+            </div>
     )
 }
 
