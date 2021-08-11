@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #5d4257;
+  background-image: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.classes.bar{
+  background-color: #f2cf43;
+background-image: linear-gradient(315deg, #f2cf43 0%, #19a186 74%);
 }
